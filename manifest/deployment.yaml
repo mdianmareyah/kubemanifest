@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
         - name: my-app-sendmail
-          image: mdianmareyah/sendemail-github:10
+          image: mdianmareyah/sendemail-github:13
           ports:
             - containerPort: 8080
       imagePullSecrets:
